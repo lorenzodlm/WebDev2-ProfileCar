@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        header{
+            text-align: center;
+            margin: 20px;
+            font-size: 30px;
+            font-weight: bold;
+            color: red;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        img {
+            margin-top: 20px;
+            max-width: 80%;
+            height: auto;
+            align-items: center;
+        }
+        td{
+            padding: 10px;
+            z-index: 2;
+        }
+        .circle-image{
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        table {
+            border-collapse: collapse;
+            margin: auto;   
+            padding-top: 10px;  
+        }
+        .profile-table, .bio-table {
+            width: 400px; 
+            height: 500px;
+        }
+        .profile-table {
+            font-weight: bold;
+            color: aliceblue;
+            background-color:blanchedalmond;
+            background-image: url('https://tr.rbxcdn.com/b222158573472ec00e298c199325639b/420/420/Hat/Webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: -1;
+        }
+        .bio-table {
+            color:black;
+        }
+        .back-button {
+            position: absolute;
+            font-size: 26px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+    </style>
+    <title>Home</title>
+</head>
+
+
+<body>
+    <button type="back-button" onclick="history.back()">Back</button>
+    <header>
+        Welcome to my Profile!
+    </header>
+
+    
+
+    <table>
+        <tr>
+            <td>
+                <table class="profile-table">
+                    <tr>
+                        <td>Lorenzo</td>
+                    </tr>
+                    <tr>
+                        <td><img src="gigachad.webp" alt="Sir Chad" class="circle-image"></td>
+                    </tr>
+                    <tr>
+                        <td>I develop! Oh Yeah!</td>
+                    </tr>
+                    <tr>
+                        <td>Email: u6420015@au.edu</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table class="bio-table">
+                    <tr>
+                        <td><img src="cover2.jpg" alt="Sir Chad" class="circle-image"></td>
+                    </tr>
+                    <tr>
+                        <td>Curse you Perry the Platypus. </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>He is a semi aquatic four legged mammal of action!</h3>
+                            <p>He's Perry, Perry the Platypus</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
